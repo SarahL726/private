@@ -1,0 +1,21 @@
+cube_name,attribute_name,attribute_form_name,count_number
+Netflix Dataset,Titile,Title Image,100
+Netflix Dataset,Netflix Image,ID,1
+Nov 30 Blitz,Date,ID,1462
+Nov 30 Blitz,Amount &nbsp; X0028month X0029,ID,4
+20231130Blitz,Date,ID,1462
+20231130Blitz,Amount &nbsp; X0028month X0029,ID,4
+New Dataset,Date,ID,1462
+New Dataset,Amount &nbsp; X0028month X0029,ID,4
+231121_Mission2_rdu,Date,ID,1462
+231121_Mission2_rdu,Amount &nbsp; X0028month X0029,ID,4
+Animal Dataset,Animal,Column 3,10
+Animal Dataset,Animal,Split Link1,1
+Animal Dataset,Image GIF,ID,9
+Animal Dataset,Image JPG,ID,9
+Animal Dataset,Image PNG,ID,9
+NBA Dataset,PLAYER,URL,22
+Countries Dataset,Flag,ID,66
+Countries Dataset,Flag 1,ID,66
+President Dataset,Nickname,Images,43
+UB Cube (New DWH) - Dev,Test Case Rally Link,ID,256

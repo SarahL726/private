@@ -1,0 +1,872 @@
+2024-06-03 14:50:54,341 - INFO - Logging in to https://aqueduct-tech3.customer.cloud.microstrategy.com/MicroStrategyLibrary/api/auth/login
+2024-06-03 14:50:54,455 - INFO - Login success
+2024-06-03 14:50:57,980 - INFO - Count of OLAP cubes for indexing in specified project: 0
+2024-06-03 14:50:57,981 - INFO - The sizing time for specified project's OLAP cubes was: 2.484437942504883 seconds
+2024-06-03 14:52:33,862 - INFO - Count of MTDI cubes for indexing in specified project: 33
+2024-06-03 14:52:33,863 - INFO - Start counting distinct elements in Cube: Movies dataset...
+2024-06-03 14:52:34,692 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:34,698 - INFO - There is no element of string form in attribute "Poster" to be indexed
+2024-06-03 14:52:35,162 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:35,164 - INFO - There is no element of string form in attribute "Title" to be indexed
+2024-06-03 14:52:35,230 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:35,231 - INFO - There is no element of string form in attribute "Year" to be indexed
+2024-06-03 14:52:35,296 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:35,297 - INFO - There is no element of string form in attribute "Certificate" to be indexed
+2024-06-03 14:52:35,357 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:35,357 - INFO - There is no element of string form in attribute "Duration (min)" to be indexed
+2024-06-03 14:52:35,439 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:35,440 - INFO - There is no element of string form in attribute "Genre" to be indexed
+2024-06-03 14:52:35,500 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:35,502 - INFO - There is no element of string form in attribute "Metascore" to be indexed
+2024-06-03 14:52:35,758 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:35,760 - INFO - There is no element of string form in attribute "Director" to be indexed
+2024-06-03 14:52:36,375 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:36,378 - INFO - There is no element of string form in attribute "Cast" to be indexed
+2024-06-03 14:52:37,230 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:37,231 - INFO - There is no element of string form in attribute "Description" to be indexed
+2024-06-03 14:52:37,734 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:37,738 - INFO - There is no element of string form in attribute "Review Title" to be indexed
+2024-06-03 14:52:42,619 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:52:42,623 - INFO - There is no element of string form in attribute "Review" to be indexed
+2024-06-03 14:52:42,623 - INFO - Distinct element count of Cube: Movies dataset done.
+2024-06-03 14:52:42,623 - INFO - Start counting distinct elements in Cube: QA Cube-pg...
+2024-06-03 14:56:43,113 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:43,113 - INFO - Cube is not published
+2024-06-03 14:56:43,113 - INFO - Distinct element count of Cube: QA Cube-pg done.
+2024-06-03 14:56:43,114 - INFO - Start counting distinct elements in Cube: PD Cube-pg...
+2024-06-03 14:56:48,037 - INFO - Attribute 92207EA445BA047ECF73EAAACD4F58D8 ignored because element count exceeds the limit 10000.
+2024-06-03 14:56:48,043 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:48,043 - INFO - Record added: {'cube_name': 'PD Cube-pg', 'attribute_name': 'Defect', 'attribute_form_name': 'DESC', 'count_number': '>10000'}
+2024-06-03 14:56:48,043 - INFO - Record added: {'cube_name': 'PD Cube-pg', 'attribute_name': 'Defect', 'attribute_form_name': 'Link', 'count_number': '>10000'}
+2024-06-03 14:56:48,043 - INFO - Distinct element count of Cube: PD Cube-pg done.
+2024-06-03 14:56:48,043 - INFO - Start counting distinct elements in Cube: ENG Certification Cube...
+2024-06-03 14:56:48,264 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:48,267 - INFO - There is no element of string form in attribute "Course" to be indexed
+2024-06-03 14:56:48,354 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:48,356 - INFO - There is no element of string form in attribute "Course Description" to be indexed
+2024-06-03 14:56:48,430 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:48,432 - INFO - There is no element of string form in attribute "Course Type" to be indexed
+2024-06-03 14:56:48,499 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:48,501 - INFO - There is no element of string form in attribute "Course Category" to be indexed
+2024-06-03 14:56:49,518 - INFO - Attribute 2C5F0A1F04407B9738F8438C80D8FF6A ignored because element count exceeds the limit 10000.
+2024-06-03 14:56:49,523 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:49,523 - INFO - Distinct element count of Cube: ENG Certification Cube done.
+2024-06-03 14:56:49,523 - INFO - Start counting distinct elements in Cube: ENG Training courses...
+2024-06-03 14:56:50,729 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:50,732 - INFO - There is no element of string form in attribute "Course" to be indexed
+2024-06-03 14:56:50,818 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:50,820 - INFO - There is no element of string form in attribute "Course Description" to be indexed
+2024-06-03 14:56:50,895 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:50,897 - INFO - There is no element of string form in attribute "Course Type" to be indexed
+2024-06-03 14:56:50,994 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:50,996 - INFO - There is no element of string form in attribute "Course Category" to be indexed
+2024-06-03 14:56:51,201 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:51,204 - INFO - There is no element of string form in attribute "Enrollment Date" to be indexed
+2024-06-03 14:56:51,279 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:51,281 - INFO - There is no element of string form in attribute "Enrollment Quarter" to be indexed
+2024-06-03 14:56:51,365 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:51,367 - INFO - There is no element of string form in attribute "Enrollment Year" to be indexed
+2024-06-03 14:56:51,541 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:51,543 - INFO - There is no element of string form in attribute "Completion Date" to be indexed
+2024-06-03 14:56:51,618 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:51,620 - INFO - There is no element of string form in attribute "Completion Quarter" to be indexed
+2024-06-03 14:56:51,693 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:51,694 - INFO - There is no element of string form in attribute "Completion Year" to be indexed
+2024-06-03 14:56:51,766 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:51,768 - INFO - There is no element of string form in attribute "Training Status" to be indexed
+2024-06-03 14:56:51,852 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:51,855 - INFO - There is no element of string form in attribute "Employee Bu" to be indexed
+2024-06-03 14:56:51,979 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:51,982 - INFO - There is no element of string form in attribute "Employee" to be indexed
+2024-06-03 14:56:52,051 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:52,052 - INFO - There is no element of string form in attribute "Employee Department" to be indexed
+2024-06-03 14:56:52,123 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:52,125 - INFO - There is no element of string form in attribute "Employee Title" to be indexed
+2024-06-03 14:56:52,203 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:52,205 - INFO - There is no element of string form in attribute "Job Category" to be indexed
+2024-06-03 14:56:52,283 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:52,286 - INFO - There is no element of string form in attribute "Employee Location" to be indexed
+2024-06-03 14:56:52,364 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:52,366 - INFO - There is no element of string form in attribute "Employee Mission" to be indexed
+2024-06-03 14:56:52,366 - INFO - Distinct element count of Cube: ENG Training courses done.
+2024-06-03 14:56:52,366 - INFO - Start counting distinct elements in Cube: CO2 Emissions RAG...
+2024-06-03 14:56:53,006 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,009 - INFO - There is no element of string form in attribute "Country" to be indexed
+2024-06-03 14:56:53,091 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,093 - INFO - There is no element of string form in attribute "Region" to be indexed
+2024-06-03 14:56:53,171 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,173 - INFO - There is no element of string form in attribute "Year" to be indexed
+2024-06-03 14:56:53,173 - INFO - Distinct element count of Cube: CO2 Emissions RAG done.
+2024-06-03 14:56:53,173 - INFO - Start counting distinct elements in Cube: Netflix Dataset...
+2024-06-03 14:56:53,347 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,349 - INFO - There is no element of string form in attribute "Genre" to be indexed
+2024-06-03 14:56:53,435 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,437 - INFO - There is no element of string form in attribute "Premiere" to be indexed
+2024-06-03 14:56:53,521 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,523 - INFO - There is no element of string form in attribute "Seasons" to be indexed
+2024-06-03 14:56:53,606 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,608 - INFO - There is no element of string form in attribute "Length" to be indexed
+2024-06-03 14:56:53,683 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,685 - INFO - There is no element of string form in attribute "Status" to be indexed
+2024-06-03 14:56:53,756 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,758 - INFO - There is no element of string form in attribute "Active" to be indexed
+2024-06-03 14:56:53,832 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,834 - INFO - There is no element of string form in attribute "Category" to be indexed
+2024-06-03 14:56:53,905 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,907 - INFO - There is no element of string form in attribute "Language" to be indexed
+2024-06-03 14:56:53,992 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:53,995 - INFO - There is no element of string form in attribute "Netflix Link" to be indexed
+2024-06-03 14:56:54,075 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:54,077 - INFO - There is no element of string form in attribute "IMBD Link" to be indexed
+2024-06-03 14:56:54,149 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:54,151 - INFO - There is no element of string form in attribute "Parental Rating" to be indexed
+2024-06-03 14:56:54,218 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:54,220 - INFO - Record added: {'cube_name': 'Netflix Dataset', 'attribute_name': 'Titile', 'attribute_form_name': 'Title Image', 'count_number': 100}
+2024-06-03 14:56:54,275 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:54,276 - INFO - There is no element of string form in attribute "Rotten Tomatoes Link" to be indexed
+2024-06-03 14:56:54,330 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:54,331 - INFO - Record added: {'cube_name': 'Netflix Dataset', 'attribute_name': 'Netflix Image', 'attribute_form_name': 'ID', 'count_number': 1}
+2024-06-03 14:56:54,396 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:54,396 - INFO - There is no element of string form in attribute "Studio" to be indexed
+2024-06-03 14:56:54,396 - INFO - Distinct element count of Cube: Netflix Dataset done.
+2024-06-03 14:56:54,396 - INFO - Start counting distinct elements in Cube: ADMINS - ENG Training Cube...
+2024-06-03 14:56:55,529 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:55,532 - INFO - There is no element of string form in attribute "Course" to be indexed
+2024-06-03 14:56:55,610 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:55,611 - INFO - There is no element of string form in attribute "Course Description" to be indexed
+2024-06-03 14:56:55,686 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:55,687 - INFO - There is no element of string form in attribute "Course Type" to be indexed
+2024-06-03 14:56:55,784 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:55,786 - INFO - There is no element of string form in attribute "Course Category" to be indexed
+2024-06-03 14:56:55,962 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:55,964 - INFO - There is no element of string form in attribute "Enrollment Date" to be indexed
+2024-06-03 14:56:56,286 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:56,288 - INFO - There is no element of string form in attribute "Enrollment Quarter" to be indexed
+2024-06-03 14:56:56,370 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:56,372 - INFO - There is no element of string form in attribute "Enrollment Year" to be indexed
+2024-06-03 14:56:56,542 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:56,544 - INFO - There is no element of string form in attribute "Completion Date" to be indexed
+2024-06-03 14:56:56,635 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:56,637 - INFO - There is no element of string form in attribute "Completion Quarter" to be indexed
+2024-06-03 14:56:56,717 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:56,719 - INFO - There is no element of string form in attribute "Completion Year" to be indexed
+2024-06-03 14:56:56,801 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:56,803 - INFO - There is no element of string form in attribute "Training Status" to be indexed
+2024-06-03 14:56:56,879 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:56,881 - INFO - There is no element of string form in attribute "Employee Bu" to be indexed
+2024-06-03 14:56:56,998 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,000 - INFO - There is no element of string form in attribute "Employee" to be indexed
+2024-06-03 14:56:57,081 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,084 - INFO - There is no element of string form in attribute "Employee Department" to be indexed
+2024-06-03 14:56:57,169 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,171 - INFO - There is no element of string form in attribute "Employee Title" to be indexed
+2024-06-03 14:56:57,245 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,248 - INFO - There is no element of string form in attribute "Job Category" to be indexed
+2024-06-03 14:56:57,329 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,331 - INFO - There is no element of string form in attribute "Employee Location" to be indexed
+2024-06-03 14:56:57,409 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,411 - INFO - There is no element of string form in attribute "Employee Mission" to be indexed
+2024-06-03 14:56:57,411 - INFO - Distinct element count of Cube: ADMINS - ENG Training Cube done.
+2024-06-03 14:56:57,411 - INFO - Start counting distinct elements in Cube: ADMINS - ENG Training Cube...
+2024-06-03 14:56:57,702 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,704 - INFO - There is no element of string form in attribute "Course" to be indexed
+2024-06-03 14:56:57,785 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,787 - INFO - There is no element of string form in attribute "Course Description" to be indexed
+2024-06-03 14:56:57,864 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,866 - INFO - There is no element of string form in attribute "Course Type" to be indexed
+2024-06-03 14:56:57,953 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:57,955 - INFO - There is no element of string form in attribute "Course Category" to be indexed
+2024-06-03 14:56:58,122 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:58,124 - INFO - There is no element of string form in attribute "Enrollment Date" to be indexed
+2024-06-03 14:56:58,202 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:58,204 - INFO - There is no element of string form in attribute "Enrollment Quarter" to be indexed
+2024-06-03 14:56:58,279 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:58,281 - INFO - There is no element of string form in attribute "Enrollment Year" to be indexed
+2024-06-03 14:56:58,456 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:58,459 - INFO - There is no element of string form in attribute "Completion Date" to be indexed
+2024-06-03 14:56:58,538 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:58,541 - INFO - There is no element of string form in attribute "Completion Quarter" to be indexed
+2024-06-03 14:56:58,619 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:58,621 - INFO - There is no element of string form in attribute "Completion Year" to be indexed
+2024-06-03 14:56:58,708 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:58,710 - INFO - There is no element of string form in attribute "Training Status" to be indexed
+2024-06-03 14:56:58,789 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:58,792 - INFO - There is no element of string form in attribute "Employee Bu" to be indexed
+2024-06-03 14:56:58,913 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:58,915 - INFO - There is no element of string form in attribute "Employee" to be indexed
+2024-06-03 14:56:59,016 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,018 - INFO - There is no element of string form in attribute "Employee Department" to be indexed
+2024-06-03 14:56:59,126 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,129 - INFO - There is no element of string form in attribute "Employee Title" to be indexed
+2024-06-03 14:56:59,203 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,204 - INFO - There is no element of string form in attribute "Job Category" to be indexed
+2024-06-03 14:56:59,265 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,265 - INFO - There is no element of string form in attribute "Employee Location" to be indexed
+2024-06-03 14:56:59,319 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,320 - INFO - There is no element of string form in attribute "Employee Mission" to be indexed
+2024-06-03 14:56:59,320 - INFO - Distinct element count of Cube: ADMINS - ENG Training Cube done.
+2024-06-03 14:56:59,320 - INFO - Start counting distinct elements in Cube: ENG Training Cube...
+2024-06-03 14:56:59,519 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,522 - INFO - There is no element of string form in attribute "Course" to be indexed
+2024-06-03 14:56:59,611 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,613 - INFO - There is no element of string form in attribute "Course Description" to be indexed
+2024-06-03 14:56:59,683 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,685 - INFO - There is no element of string form in attribute "Course Type" to be indexed
+2024-06-03 14:56:59,748 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,749 - INFO - There is no element of string form in attribute "Course Category" to be indexed
+2024-06-03 14:56:59,908 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,910 - INFO - There is no element of string form in attribute "Enrollment Date" to be indexed
+2024-06-03 14:56:59,984 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:56:59,986 - INFO - There is no element of string form in attribute "Enrollment Quarter" to be indexed
+2024-06-03 14:57:00,177 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:00,180 - INFO - There is no element of string form in attribute "Completion Date" to be indexed
+2024-06-03 14:57:00,259 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:00,261 - INFO - There is no element of string form in attribute "Completion Quarter" to be indexed
+2024-06-03 14:57:00,347 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:00,349 - INFO - There is no element of string form in attribute "Training Status" to be indexed
+2024-06-03 14:57:00,453 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:00,455 - INFO - There is no element of string form in attribute "Employee Bu" to be indexed
+2024-06-03 14:57:00,572 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:00,574 - INFO - There is no element of string form in attribute "Employee" to be indexed
+2024-06-03 14:57:00,652 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:00,654 - INFO - There is no element of string form in attribute "Employee Department" to be indexed
+2024-06-03 14:57:00,733 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:00,734 - INFO - There is no element of string form in attribute "Employee Title" to be indexed
+2024-06-03 14:57:00,806 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:00,808 - INFO - There is no element of string form in attribute "Job Category" to be indexed
+2024-06-03 14:57:00,808 - INFO - Distinct element count of Cube: ENG Training Cube done.
+2024-06-03 14:57:00,808 - INFO - Start counting distinct elements in Cube: vRA Purpose Glossary...
+2024-06-03 14:57:01,189 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:01,191 - INFO - There is no element of string form in attribute "Owner Purpose" to be indexed
+2024-06-03 14:57:01,263 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:01,265 - INFO - There is no element of string form in attribute "Machine Usage" to be indexed
+2024-06-03 14:57:01,333 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:01,335 - INFO - There is no element of string form in attribute "Additional comments for Owner Comments" to be indexed
+2024-06-03 14:57:01,335 - INFO - Distinct element count of Cube: vRA Purpose Glossary done.
+2024-06-03 14:57:01,335 - INFO - Start counting distinct elements in Cube: 11/27 - ENG Training Cube - In Memory...
+2024-06-03 14:57:02,286 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:02,287 - INFO - There is no element of string form in attribute "Quarter" to be indexed
+2024-06-03 14:57:02,379 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:02,380 - INFO - There is no element of string form in attribute "Course" to be indexed
+2024-06-03 14:57:02,484 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:02,486 - INFO - There is no element of string form in attribute "Employee" to be indexed
+2024-06-03 14:57:02,557 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:02,559 - INFO - There is no element of string form in attribute "Completed" to be indexed
+2024-06-03 14:57:02,661 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:02,663 - INFO - There is no element of string form in attribute "Emp Login" to be indexed
+2024-06-03 14:57:02,745 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:02,746 - INFO - There is no element of string form in attribute "Employee Bu" to be indexed
+2024-06-03 14:57:02,815 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:02,817 - INFO - There is no element of string form in attribute "Employee Department" to be indexed
+2024-06-03 14:57:02,898 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:02,900 - INFO - There is no element of string form in attribute "Job Category" to be indexed
+2024-06-03 14:57:02,974 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:02,976 - INFO - There is no element of string form in attribute "Employee Title" to be indexed
+2024-06-03 14:57:03,041 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:03,043 - INFO - There is no element of string form in attribute "Course Type" to be indexed
+2024-06-03 14:57:03,114 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:03,116 - INFO - There is no element of string form in attribute "Course Category" to be indexed
+2024-06-03 14:57:03,116 - INFO - Distinct element count of Cube: 11/27 - ENG Training Cube - In Memory done.
+2024-06-03 14:57:03,116 - INFO - Start counting distinct elements in Cube: New Dataset...
+2024-06-03 14:57:04,238 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:04,240 - INFO - There is no element of string form in attribute "Index ID" to be indexed
+2024-06-03 14:57:04,297 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:04,298 - INFO - There is no element of string form in attribute "Year" to be indexed
+2024-06-03 14:57:04,354 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:04,354 - INFO - There is no element of string form in attribute "Color" to be indexed
+2024-06-03 14:57:04,413 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:04,413 - INFO - There is no element of string form in attribute "Animal" to be indexed
+2024-06-03 14:57:04,475 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:04,477 - INFO - There is no element of string form in attribute "Word" to be indexed
+2024-06-03 14:57:04,548 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:04,549 - INFO - There is no element of string form in attribute "Email" to be indexed
+2024-06-03 14:57:04,613 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:04,614 - INFO - There is no element of string form in attribute "Name" to be indexed
+2024-06-03 14:57:05,076 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:05,079 - INFO - There is no element of string form in attribute "Metrc ID" to be indexed
+2024-06-03 14:57:05,148 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:05,150 - INFO - There is no element of string form in attribute "Point0" to be indexed
+2024-06-03 14:57:05,213 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:05,215 - INFO - There is no element of string form in attribute "Point1" to be indexed
+2024-06-03 14:57:05,215 - INFO - Distinct element count of Cube: New Dataset done.
+2024-06-03 14:57:05,216 - INFO - Start counting distinct elements in Cube: AirlineCube...
+2024-06-03 14:57:05,808 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:05,810 - INFO - There is no element of string form in attribute "Origin Airport" to be indexed
+2024-06-03 14:57:05,911 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:05,912 - INFO - There is no element of string form in attribute "Airline Name" to be indexed
+2024-06-03 14:57:05,977 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:05,979 - INFO - There is no element of string form in attribute "Departure Hour" to be indexed
+2024-06-03 14:57:06,054 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:06,056 - INFO - There is no element of string form in attribute "Day of Week" to be indexed
+2024-06-03 14:57:06,125 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:06,128 - INFO - There is no element of string form in attribute "Year" to be indexed
+2024-06-03 14:57:06,201 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:06,203 - INFO - There is no element of string form in attribute "Month" to be indexed
+2024-06-03 14:57:06,204 - INFO - Distinct element count of Cube: AirlineCube done.
+2024-06-03 14:57:06,204 - INFO - Start counting distinct elements in Cube: ABAList...
+2024-06-03 14:57:06,467 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:06,468 - INFO - There is no element of string form in attribute "Abaname" to be indexed
+2024-06-03 14:57:06,468 - INFO - Distinct element count of Cube: ABAList done.
+2024-06-03 14:57:06,468 - INFO - Start counting distinct elements in Cube: Nov 30 Blitz...
+2024-06-03 14:57:09,010 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,012 - INFO - There is no element of string form in attribute "Name Chinese" to be indexed
+2024-06-03 14:57:09,089 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,091 - INFO - There is no element of string form in attribute "State Name" to be indexed
+2024-06-03 14:57:09,169 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,171 - INFO - There is no element of string form in attribute "name" to be indexed
+2024-06-03 14:57:09,244 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,245 - INFO - There is no element of string form in attribute "data Book" to be indexed
+2024-06-03 14:57:09,301 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,301 - INFO - There is no element of string form in attribute "data CobDt" to be indexed
+2024-06-03 14:57:09,367 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,367 - INFO - There is no element of string form in attribute "data Cpty" to be indexed
+2024-06-03 14:57:09,430 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,431 - INFO - There is no element of string form in attribute "year" to be indexed
+2024-06-03 14:57:09,491 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,492 - INFO - There is no element of string form in attribute "schema colName" to be indexed
+2024-06-03 14:57:09,573 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,574 - INFO - There is no element of string form in attribute "schema dataType" to be indexed
+2024-06-03 14:57:09,653 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,655 - INFO - There is no element of string form in attribute "Call ID" to be indexed
+2024-06-03 14:57:09,734 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,736 - INFO - There is no element of string form in attribute "Call Start Time" to be indexed
+2024-06-03 14:57:09,827 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,829 - INFO - There is no element of string form in attribute "Case Number" to be indexed
+2024-06-03 14:57:09,902 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,904 - INFO - There is no element of string form in attribute "Customer" to be indexed
+2024-06-03 14:57:09,978 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:09,979 - INFO - There is no element of string form in attribute "Customer Type" to be indexed
+2024-06-03 14:57:10,051 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,053 - INFO - There is no element of string form in attribute "Employee" to be indexed
+2024-06-03 14:57:10,135 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,137 - INFO - There is no element of string form in attribute "Phone Number" to be indexed
+2024-06-03 14:57:10,212 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,214 - INFO - There is no element of string form in attribute "State FIPS Code" to be indexed
+2024-06-03 14:57:10,303 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,306 - INFO - There is no element of string form in attribute "County FIPS Code" to be indexed
+2024-06-03 14:57:10,381 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,382 - INFO - There is no element of string form in attribute "State Postal Code" to be indexed
+2024-06-03 14:57:10,562 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,565 - INFO - There is no element of string form in attribute "County Name" to be indexed
+2024-06-03 14:57:10,659 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,661 - INFO - There is no element of string form in attribute "New Rank" to be indexed
+2024-06-03 14:57:10,766 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,768 - INFO - There is no element of string form in attribute "Company Name" to be indexed
+2024-06-03 14:57:10,870 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,872 - INFO - There is no element of string form in attribute "Number Of Employees" to be indexed
+2024-06-03 14:57:10,963 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:10,965 - INFO - There is no element of string form in attribute "Previous Rank" to be indexed
+2024-06-03 14:57:11,058 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,059 - INFO - There is no element of string form in attribute "Revenues" to be indexed
+2024-06-03 14:57:11,156 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,157 - INFO - There is no element of string form in attribute "Assets" to be indexed
+2024-06-03 14:57:11,246 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,247 - INFO - There is no element of string form in attribute "Market Value" to be indexed
+2024-06-03 14:57:11,331 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,333 - INFO - There is no element of string form in attribute "id" to be indexed
+2024-06-03 14:57:11,407 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,409 - INFO - There is no element of string form in attribute "maker id" to be indexed
+2024-06-03 14:57:11,484 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,486 - INFO - There is no element of string form in attribute "maker name" to be indexed
+2024-06-03 14:57:11,557 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,559 - INFO - There is no element of string form in attribute "parts" to be indexed
+2024-06-03 14:57:11,632 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,634 - INFO - There is no element of string form in attribute "Year" to be indexed
+2024-06-03 14:57:11,771 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,776 - INFO - Record added: {'cube_name': 'Nov 30 Blitz', 'attribute_name': 'Date', 'attribute_form_name': 'ID', 'count_number': 1462}
+2024-06-03 14:57:11,843 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:11,845 - INFO - Record added: {'cube_name': 'Nov 30 Blitz', 'attribute_name': 'Amount &nbsp; X0028month X0029', 'attribute_form_name': 'ID', 'count_number': 4}
+2024-06-03 14:57:11,845 - INFO - Distinct element count of Cube: Nov 30 Blitz done.
+2024-06-03 14:57:11,845 - INFO - Start counting distinct elements in Cube: 20231130Blitz...
+2024-06-03 14:57:15,047 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:15,048 - INFO - There is no element of string form in attribute "Instance Link" to be indexed
+2024-06-03 14:57:15,216 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:15,218 - INFO - There is no element of string form in attribute "Deployment Name" to be indexed
+2024-06-03 14:57:15,435 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:15,436 - INFO - There is no element of string form in attribute "Deployment ID" to be indexed
+2024-06-03 14:57:15,605 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:15,606 - INFO - There is no element of string form in attribute "Priority" to be indexed
+2024-06-03 14:57:15,839 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:15,841 - INFO - There is no element of string form in attribute "Instance Status" to be indexed
+2024-06-03 14:57:17,037 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:17,039 - INFO - There is no element of string form in attribute "Employee" to be indexed
+2024-06-03 14:57:17,186 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:17,188 - INFO - There is no element of string form in attribute "Username" to be indexed
+2024-06-03 14:57:17,354 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:17,356 - INFO - There is no element of string form in attribute "Instance Creation Date" to be indexed
+2024-06-03 14:57:17,539 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:17,540 - INFO - There is no element of string form in attribute "Purpose" to be indexed
+2024-06-03 14:57:17,699 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:17,700 - INFO - There is no element of string form in attribute "Owner Comments" to be indexed
+2024-06-03 14:57:17,896 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:17,897 - INFO - There is no element of string form in attribute "Cluster" to be indexed
+2024-06-03 14:57:18,138 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:18,140 - INFO - There is no element of string form in attribute "IP Address" to be indexed
+2024-06-03 14:57:18,320 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:18,322 - INFO - There is no element of string form in attribute "name" to be indexed
+2024-06-03 14:57:18,497 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:18,499 - INFO - There is no element of string form in attribute "data Book" to be indexed
+2024-06-03 14:57:18,637 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:18,640 - INFO - There is no element of string form in attribute "data CobDt" to be indexed
+2024-06-03 14:57:18,790 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:18,792 - INFO - There is no element of string form in attribute "data Cpty" to be indexed
+2024-06-03 14:57:19,004 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:19,006 - INFO - There is no element of string form in attribute "schema colName" to be indexed
+2024-06-03 14:57:19,190 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:19,191 - INFO - There is no element of string form in attribute "schema dataType" to be indexed
+2024-06-03 14:57:19,357 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:19,358 - INFO - There is no element of string form in attribute "Advertisement ID" to be indexed
+2024-06-03 14:57:19,503 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:19,505 - INFO - There is no element of string form in attribute "Campaign" to be indexed
+2024-06-03 14:57:19,689 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:19,691 - INFO - There is no element of string form in attribute "Date (2)" to be indexed
+2024-06-03 14:57:20,007 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:20,009 - INFO - There is no element of string form in attribute "Platform" to be indexed
+2024-06-03 14:57:20,273 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:20,275 - INFO - There is no element of string form in attribute "State FIPS Code" to be indexed
+2024-06-03 14:57:20,500 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:20,502 - INFO - There is no element of string form in attribute "County FIPS Code" to be indexed
+2024-06-03 14:57:20,673 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:20,676 - INFO - There is no element of string form in attribute "State Postal Code" to be indexed
+2024-06-03 14:57:20,947 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:20,951 - INFO - There is no element of string form in attribute "County Name" to be indexed
+2024-06-03 14:57:21,161 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:21,165 - INFO - There is no element of string form in attribute "New Rank" to be indexed
+2024-06-03 14:57:21,426 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:21,427 - INFO - There is no element of string form in attribute "Company Name" to be indexed
+2024-06-03 14:57:21,664 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:21,666 - INFO - There is no element of string form in attribute "Number Of Employees" to be indexed
+2024-06-03 14:57:21,857 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:21,860 - INFO - There is no element of string form in attribute "Previous Rank" to be indexed
+2024-06-03 14:57:22,118 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:22,120 - INFO - There is no element of string form in attribute "Revenues" to be indexed
+2024-06-03 14:57:22,369 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:22,372 - INFO - There is no element of string form in attribute "Assets" to be indexed
+2024-06-03 14:57:22,546 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:22,549 - INFO - There is no element of string form in attribute "Market Value" to be indexed
+2024-06-03 14:57:22,757 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:22,760 - INFO - There is no element of string form in attribute "M Date" to be indexed
+2024-06-03 14:57:22,986 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:22,988 - INFO - There is no element of string form in attribute "Movie Name" to be indexed
+2024-06-03 14:57:23,162 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:23,163 - INFO - There is no element of string form in attribute "Num Of Viewers Per Session" to be indexed
+2024-06-03 14:57:23,306 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:23,308 - INFO - There is no element of string form in attribute "Revenue Per Session" to be indexed
+2024-06-03 14:57:23,484 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:23,485 - INFO - There is no element of string form in attribute "Avg Ticket Price" to be indexed
+2024-06-03 14:57:23,586 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:23,587 - INFO - There is no element of string form in attribute "email" to be indexed
+2024-06-03 14:57:23,684 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:23,686 - INFO - There is no element of string form in attribute "first name" to be indexed
+2024-06-03 14:57:23,812 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:23,814 - INFO - There is no element of string form in attribute "id" to be indexed
+2024-06-03 14:57:23,947 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:23,949 - INFO - There is no element of string form in attribute "last name" to be indexed
+2024-06-03 14:57:24,140 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:24,142 - INFO - There is no element of string form in attribute "Year" to be indexed
+2024-06-03 14:57:24,338 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:24,339 - INFO - Record added: {'cube_name': '20231130Blitz', 'attribute_name': 'Date', 'attribute_form_name': 'ID', 'count_number': 1462}
+2024-06-03 14:57:24,472 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:24,475 - INFO - Record added: {'cube_name': '20231130Blitz', 'attribute_name': 'Amount &nbsp; X0028month X0029', 'attribute_form_name': 'ID', 'count_number': 4}
+2024-06-03 14:57:24,475 - INFO - Distinct element count of Cube: 20231130Blitz done.
+2024-06-03 14:57:24,475 - INFO - Start counting distinct elements in Cube: New Dataset...
+2024-06-03 14:57:26,885 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:26,887 - INFO - There is no element of string form in attribute "M Date" to be indexed
+2024-06-03 14:57:26,963 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:26,965 - INFO - There is no element of string form in attribute "Movie Name" to be indexed
+2024-06-03 14:57:27,035 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,037 - INFO - There is no element of string form in attribute "Num Of Viewers Per Session" to be indexed
+2024-06-03 14:57:27,110 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,112 - INFO - There is no element of string form in attribute "Revenue Per Session" to be indexed
+2024-06-03 14:57:27,205 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,206 - INFO - There is no element of string form in attribute "Avg Ticket Price" to be indexed
+2024-06-03 14:57:27,291 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,294 - INFO - There is no element of string form in attribute "year" to be indexed
+2024-06-03 14:57:27,375 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,377 - INFO - There is no element of string form in attribute "name" to be indexed
+2024-06-03 14:57:27,445 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,447 - INFO - There is no element of string form in attribute "data Book" to be indexed
+2024-06-03 14:57:27,524 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,526 - INFO - There is no element of string form in attribute "data CobDt" to be indexed
+2024-06-03 14:57:27,610 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,612 - INFO - There is no element of string form in attribute "data Cpty" to be indexed
+2024-06-03 14:57:27,686 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,688 - INFO - There is no element of string form in attribute "schema colName" to be indexed
+2024-06-03 14:57:27,753 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,754 - INFO - There is no element of string form in attribute "schema dataType" to be indexed
+2024-06-03 14:57:27,829 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,831 - INFO - There is no element of string form in attribute "From Country" to be indexed
+2024-06-03 14:57:27,914 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,917 - INFO - There is no element of string form in attribute "To Country" to be indexed
+2024-06-03 14:57:27,996 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:27,998 - INFO - There is no element of string form in attribute "State FIPS Code" to be indexed
+2024-06-03 14:57:28,084 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,086 - INFO - There is no element of string form in attribute "County FIPS Code" to be indexed
+2024-06-03 14:57:28,173 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,175 - INFO - There is no element of string form in attribute "State Postal Code" to be indexed
+2024-06-03 14:57:28,344 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,347 - INFO - There is no element of string form in attribute "County Name" to be indexed
+2024-06-03 14:57:28,424 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,426 - INFO - There is no element of string form in attribute "Name Chinese" to be indexed
+2024-06-03 14:57:28,504 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,506 - INFO - There is no element of string form in attribute "State Name" to be indexed
+2024-06-03 14:57:28,576 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,578 - INFO - There is no element of string form in attribute "id" to be indexed
+2024-06-03 14:57:28,651 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,652 - INFO - There is no element of string form in attribute "maker id" to be indexed
+2024-06-03 14:57:28,722 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,723 - INFO - There is no element of string form in attribute "maker name" to be indexed
+2024-06-03 14:57:28,795 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,796 - INFO - There is no element of string form in attribute "parts" to be indexed
+2024-06-03 14:57:28,860 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:28,862 - INFO - There is no element of string form in attribute "Year" to be indexed
+2024-06-03 14:57:29,009 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:29,013 - INFO - Record added: {'cube_name': 'New Dataset', 'attribute_name': 'Date', 'attribute_form_name': 'ID', 'count_number': 1462}
+2024-06-03 14:57:29,086 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:29,088 - INFO - Record added: {'cube_name': 'New Dataset', 'attribute_name': 'Amount &nbsp; X0028month X0029', 'attribute_form_name': 'ID', 'count_number': 4}
+2024-06-03 14:57:29,088 - INFO - Distinct element count of Cube: New Dataset done.
+2024-06-03 14:57:29,088 - INFO - Start counting distinct elements in Cube: 231121_Mission2_rdu...
+2024-06-03 14:57:31,885 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:31,886 - INFO - There is no element of string form in attribute "name" to be indexed
+2024-06-03 14:57:31,960 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:31,962 - INFO - There is no element of string form in attribute "data Book" to be indexed
+2024-06-03 14:57:32,026 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,028 - INFO - There is no element of string form in attribute "data Cpty" to be indexed
+2024-06-03 14:57:32,103 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,105 - INFO - There is no element of string form in attribute "schema colName" to be indexed
+2024-06-03 14:57:32,185 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,187 - INFO - There is no element of string form in attribute "schema dataType" to be indexed
+2024-06-03 14:57:32,271 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,274 - INFO - There is no element of string form in attribute "Country" to be indexed
+2024-06-03 14:57:32,347 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,349 - INFO - There is no element of string form in attribute "Region" to be indexed
+2024-06-03 14:57:32,427 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,429 - INFO - There is no element of string form in attribute "Year (2)" to be indexed
+2024-06-03 14:57:32,515 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,517 - INFO - There is no element of string form in attribute "State FIPS Code" to be indexed
+2024-06-03 14:57:32,614 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,616 - INFO - There is no element of string form in attribute "County FIPS Code" to be indexed
+2024-06-03 14:57:32,684 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,685 - INFO - There is no element of string form in attribute "State Postal Code" to be indexed
+2024-06-03 14:57:32,859 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,861 - INFO - There is no element of string form in attribute "County Name" to be indexed
+2024-06-03 14:57:32,928 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:32,930 - INFO - There is no element of string form in attribute "M Date" to be indexed
+2024-06-03 14:57:33,013 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,015 - INFO - There is no element of string form in attribute "Movie Name" to be indexed
+2024-06-03 14:57:33,101 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,103 - INFO - There is no element of string form in attribute "Num Of Viewers Per Session" to be indexed
+2024-06-03 14:57:33,182 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,185 - INFO - There is no element of string form in attribute "Revenue Per Session" to be indexed
+2024-06-03 14:57:33,260 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,261 - INFO - There is no element of string form in attribute "Avg Ticket Price" to be indexed
+2024-06-03 14:57:33,348 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,351 - INFO - There is no element of string form in attribute "Name Chinese" to be indexed
+2024-06-03 14:57:33,431 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,433 - INFO - There is no element of string form in attribute "State Name" to be indexed
+2024-06-03 14:57:33,504 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,506 - INFO - There is no element of string form in attribute "id" to be indexed
+2024-06-03 14:57:33,576 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,578 - INFO - There is no element of string form in attribute "maker id" to be indexed
+2024-06-03 14:57:33,651 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,653 - INFO - There is no element of string form in attribute "maker name" to be indexed
+2024-06-03 14:57:33,731 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,733 - INFO - There is no element of string form in attribute "parts" to be indexed
+2024-06-03 14:57:33,811 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,813 - INFO - There is no element of string form in attribute "Year" to be indexed
+2024-06-03 14:57:33,956 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:33,958 - INFO - Record added: {'cube_name': '231121_Mission2_rdu', 'attribute_name': 'Date', 'attribute_form_name': 'ID', 'count_number': 1462}
+2024-06-03 14:57:34,032 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:34,035 - INFO - Record added: {'cube_name': '231121_Mission2_rdu', 'attribute_name': 'Amount &nbsp; X0028month X0029', 'attribute_form_name': 'ID', 'count_number': 4}
+2024-06-03 14:57:34,036 - INFO - Distinct element count of Cube: 231121_Mission2_rdu done.
+2024-06-03 14:57:34,036 - INFO - Start counting distinct elements in Cube: CI_DateRange_DB...
+2024-06-03 14:57:34,287 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:34,288 - INFO - There is no element of string form in attribute "WeekStartDate" to be indexed
+2024-06-03 14:57:34,342 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 14:57:34,343 - INFO - There is no element of string form in attribute "LastWeekStartDate" to be indexed
+2024-06-03 14:57:34,343 - INFO - Distinct element count of Cube: CI_DateRange_DB done.
+2024-06-03 14:57:34,343 - INFO - Start counting distinct elements in Cube: rowcountcheck...
+2024-06-03 14:57:34,407 - INFO - Distinct element count of Cube: rowcountcheck done.
+2024-06-03 14:57:34,407 - INFO - Start counting distinct elements in Cube: CI_Stats...
+2024-06-03 15:01:35,785 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:35,785 - INFO - Cube is not published
+2024-06-03 15:01:35,785 - INFO - Distinct element count of Cube: CI_Stats done.
+2024-06-03 15:01:35,786 - INFO - Start counting distinct elements in Cube: ReportEditor...
+2024-06-03 15:01:36,031 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:36,033 - INFO - There is no element of string form in attribute "Abaname" to be indexed
+2024-06-03 15:01:36,128 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:36,131 - INFO - There is no element of string form in attribute "Projectname" to be indexed
+2024-06-03 15:01:46,866 - INFO - Attribute F95149D1FD4218D5B389A0B7B14CA281 ignored because element count exceeds the limit 10000.
+2024-06-03 15:01:46,887 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:46,887 - INFO - Distinct element count of Cube: ReportEditor done.
+2024-06-03 15:01:46,887 - INFO - Start counting distinct elements in Cube: IgnoreReportID...
+2024-06-03 15:01:47,031 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:47,032 - INFO - There is no element of string form in attribute "IgnoreReportid" to be indexed
+2024-06-03 15:01:47,032 - INFO - Distinct element count of Cube: IgnoreReportID done.
+2024-06-03 15:01:47,032 - INFO - Start counting distinct elements in Cube: Animal Dataset...
+2024-06-03 15:01:47,714 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:47,717 - INFO - Record added: {'cube_name': 'Animal Dataset', 'attribute_name': 'Animal', 'attribute_form_name': 'Column 3', 'count_number': 10}
+2024-06-03 15:01:47,717 - INFO - Record added: {'cube_name': 'Animal Dataset', 'attribute_name': 'Animal', 'attribute_form_name': 'Split Link1', 'count_number': 1}
+2024-06-03 15:01:47,796 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:47,798 - INFO - There is no element of string form in attribute "Attribute1" to be indexed
+2024-06-03 15:01:47,880 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:47,882 - INFO - There is no element of string form in attribute "Attribute2" to be indexed
+2024-06-03 15:01:47,949 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:47,950 - INFO - There is no element of string form in attribute "Attribute3" to be indexed
+2024-06-03 15:01:48,014 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:48,014 - INFO - There is no element of string form in attribute "Attribute4" to be indexed
+2024-06-03 15:01:48,072 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:48,073 - INFO - Record added: {'cube_name': 'Animal Dataset', 'attribute_name': 'Image GIF', 'attribute_form_name': 'ID', 'count_number': 9}
+2024-06-03 15:01:48,133 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:48,134 - INFO - Record added: {'cube_name': 'Animal Dataset', 'attribute_name': 'Image JPG', 'attribute_form_name': 'ID', 'count_number': 9}
+2024-06-03 15:01:48,192 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:48,193 - INFO - Record added: {'cube_name': 'Animal Dataset', 'attribute_name': 'Image PNG', 'attribute_form_name': 'ID', 'count_number': 9}
+2024-06-03 15:01:48,251 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:48,253 - INFO - There is no element of string form in attribute "Row Count - Animal Random Data.xlsx" to be indexed
+2024-06-03 15:01:48,253 - INFO - Distinct element count of Cube: Animal Dataset done.
+2024-06-03 15:01:48,253 - INFO - Start counting distinct elements in Cube: Employee 200k Dataset...
+2024-06-03 15:01:48,418 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:48,419 - INFO - There is no element of string form in attribute "General Manager" to be indexed
+2024-06-03 15:01:48,499 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:48,501 - INFO - There is no element of string form in attribute "Department" to be indexed
+2024-06-03 15:01:48,594 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:48,596 - INFO - There is no element of string form in attribute "BU" to be indexed
+2024-06-03 15:01:48,697 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:01:48,698 - INFO - There is no element of string form in attribute "FM" to be indexed
+2024-06-03 15:02:12,089 - INFO - Attribute F3F3B71BB24428C095715089796C088D ignored because element count exceeds the limit 10000.
+2024-06-03 15:02:12,125 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:12,126 - INFO - Distinct element count of Cube: Employee 200k Dataset done.
+2024-06-03 15:02:12,126 - INFO - Start counting distinct elements in Cube: O --Z Dictionary Dataset...
+2024-06-03 15:02:15,032 - INFO - Attribute 9634D7E5AC4026C1FD5C5A97D4C62F6C ignored because element count exceeds the limit 10000.
+2024-06-03 15:02:15,038 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:15,038 - INFO - Distinct element count of Cube: O --Z Dictionary Dataset done.
+2024-06-03 15:02:15,038 - INFO - Start counting distinct elements in Cube: A--M Dictionary Dataset...
+2024-06-03 15:02:17,991 - INFO - Attribute A9993C07BC475C6C92ED4FBC6BCCBA26 ignored because element count exceeds the limit 10000.
+2024-06-03 15:02:17,997 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:17,997 - INFO - Distinct element count of Cube: A--M Dictionary Dataset done.
+2024-06-03 15:02:17,997 - INFO - Start counting distinct elements in Cube: NBA Dataset...
+2024-06-03 15:02:18,193 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:18,194 - INFO - Record added: {'cube_name': 'NBA Dataset', 'attribute_name': 'PLAYER', 'attribute_form_name': 'URL', 'count_number': 22}
+2024-06-03 15:02:18,253 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:18,253 - INFO - There is no element of string form in attribute "Born" to be indexed
+2024-06-03 15:02:18,336 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:18,336 - INFO - There is no element of string form in attribute "PRIOR" to be indexed
+2024-06-03 15:02:18,399 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:18,400 - INFO - There is no element of string form in attribute "Team" to be indexed
+2024-06-03 15:02:18,478 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:18,480 - INFO - There is no element of string form in attribute "WT" to be indexed
+2024-06-03 15:02:18,573 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:18,575 - INFO - There is no element of string form in attribute "HT" to be indexed
+2024-06-03 15:02:18,661 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:18,663 - INFO - There is no element of string form in attribute "BIO" to be indexed
+2024-06-03 15:02:18,663 - INFO - Distinct element count of Cube: NBA Dataset done.
+2024-06-03 15:02:18,663 - INFO - Start counting distinct elements in Cube: Countries Dataset...
+2024-06-03 15:02:18,851 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:18,853 - INFO - There is no element of string form in attribute "Full Name Form" to be indexed
+2024-06-03 15:02:18,935 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:18,938 - INFO - There is no element of string form in attribute "Abbreviation" to be indexed
+2024-06-03 15:02:19,020 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,022 - INFO - Record added: {'cube_name': 'Countries Dataset', 'attribute_name': 'Flag', 'attribute_form_name': 'ID', 'count_number': 66}
+2024-06-03 15:02:19,118 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,120 - INFO - Record added: {'cube_name': 'Countries Dataset', 'attribute_name': 'Flag 1', 'attribute_form_name': 'ID', 'count_number': 66}
+2024-06-03 15:02:19,208 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,210 - INFO - There is no element of string form in attribute "Full Name" to be indexed
+2024-06-03 15:02:19,297 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,299 - INFO - There is no element of string form in attribute "Capital" to be indexed
+2024-06-03 15:02:19,383 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,385 - INFO - There is no element of string form in attribute "National Language(s)" to be indexed
+2024-06-03 15:02:19,466 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,468 - INFO - There is no element of string form in attribute "Demonyms" to be indexed
+2024-06-03 15:02:19,557 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,559 - INFO - There is no element of string form in attribute "GDP" to be indexed
+2024-06-03 15:02:19,637 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,639 - INFO - There is no element of string form in attribute "Country" to be indexed
+2024-06-03 15:02:19,723 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,725 - INFO - There is no element of string form in attribute "Link" to be indexed
+2024-06-03 15:02:19,803 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,805 - INFO - There is no element of string form in attribute "Time Zone" to be indexed
+2024-06-03 15:02:19,805 - INFO - Distinct element count of Cube: Countries Dataset done.
+2024-06-03 15:02:19,805 - INFO - Start counting distinct elements in Cube: President Dataset...
+2024-06-03 15:02:19,990 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:19,992 - INFO - Record added: {'cube_name': 'President Dataset', 'attribute_name': 'Nickname', 'attribute_form_name': 'Images', 'count_number': 43}
+2024-06-03 15:02:20,067 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,069 - INFO - There is no element of string form in attribute "Home State" to be indexed
+2024-06-03 15:02:20,156 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,158 - INFO - There is no element of string form in attribute "Home State Abbreviation" to be indexed
+2024-06-03 15:02:20,237 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,239 - INFO - There is no element of string form in attribute "Representative State" to be indexed
+2024-06-03 15:02:20,315 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,316 - INFO - There is no element of string form in attribute "Representative State Abbreviation" to be indexed
+2024-06-03 15:02:20,392 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,393 - INFO - There is no element of string form in attribute "Political Party" to be indexed
+2024-06-03 15:02:20,472 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,474 - INFO - There is no element of string form in attribute "Occupation" to be indexed
+2024-06-03 15:02:20,557 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,559 - INFO - There is no element of string form in attribute "College" to be indexed
+2024-06-03 15:02:20,639 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,641 - INFO - There is no element of string form in attribute "Trivia" to be indexed
+2024-06-03 15:02:20,734 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,736 - INFO - There is no element of string form in attribute "Inventions During Presidency" to be indexed
+2024-06-03 15:02:20,816 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,818 - INFO - There is no element of string form in attribute "Took office" to be indexed
+2024-06-03 15:02:20,895 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,897 - INFO - There is no element of string form in attribute "Left office" to be indexed
+2024-06-03 15:02:20,973 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:20,976 - INFO - There is no element of string form in attribute "Vice President" to be indexed
+2024-06-03 15:02:21,052 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:21,054 - INFO - There is no element of string form in attribute "Previous office" to be indexed
+2024-06-03 15:02:21,054 - INFO - Distinct element count of Cube: President Dataset done.
+2024-06-03 15:02:21,054 - INFO - Start counting distinct elements in Cube: TS_TC_Snapshot-pg...
+2024-06-03 15:02:21,220 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:21,222 - INFO - There is no element of string form in attribute "Snapshot Date" to be indexed
+2024-06-03 15:02:24,376 - INFO - Attribute D933509C11EAE7C3D58B0080EFB51D08 ignored because element count exceeds the limit 10000.
+2024-06-03 15:02:24,381 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:24,381 - INFO - Distinct element count of Cube: TS_TC_Snapshot-pg done.
+2024-06-03 15:02:24,381 - INFO - Start counting distinct elements in Cube: UB Cube (New DWH) - Dev...
+2024-06-03 15:02:26,347 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:26,351 - INFO - There is no element of string form in attribute "Testid" to be indexed
+2024-06-03 15:02:26,426 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:26,428 - INFO - There is no element of string form in attribute "Testgroupuuid" to be indexed
+2024-06-03 15:02:26,514 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:26,516 - INFO - There is no element of string form in attribute "Mission" to be indexed
+2024-06-03 15:02:26,601 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:26,603 - INFO - There is no element of string form in attribute "Project" to be indexed
+2024-06-03 15:02:26,694 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:26,696 - INFO - There is no element of string form in attribute "Version" to be indexed
+2024-06-03 15:02:26,795 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:26,798 - INFO - Record added: {'cube_name': 'UB Cube (New DWH) - Dev', 'attribute_name': 'Test Case Rally Link', 'attribute_form_name': 'ID', 'count_number': 256}
+2024-06-03 15:02:26,876 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:26,877 - INFO - There is no element of string form in attribute "Test Type" to be indexed
+2024-06-03 15:02:26,960 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:26,965 - INFO - There is no element of string form in attribute "Test Set" to be indexed
+2024-06-03 15:02:27,049 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,051 - INFO - There is no element of string form in attribute "Test Case Step Id" to be indexed
+2024-06-03 15:02:27,150 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,152 - INFO - There is no element of string form in attribute "Test Case" to be indexed
+2024-06-03 15:02:27,241 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,243 - INFO - There is no element of string form in attribute "Test Step Id" to be indexed
+2024-06-03 15:02:27,336 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,338 - INFO - There is no element of string form in attribute "Test Step" to be indexed
+2024-06-03 15:02:27,424 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,426 - INFO - There is no element of string form in attribute "Defect" to be indexed
+2024-06-03 15:02:27,510 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,512 - INFO - There is no element of string form in attribute "Defect Unformated ID" to be indexed
+2024-06-03 15:02:27,599 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,601 - INFO - There is no element of string form in attribute "Defect Link" to be indexed
+2024-06-03 15:02:27,695 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,697 - INFO - There is no element of string form in attribute "# Concurrent Users" to be indexed
+2024-06-03 15:02:27,821 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,822 - INFO - There is no element of string form in attribute "Gateway Level" to be indexed
+2024-06-03 15:02:27,933 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:27,934 - INFO - There is no element of string form in attribute "Db Hw Specs" to be indexed
+2024-06-03 15:02:28,071 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,074 - INFO - There is no element of string form in attribute "Source Type" to be indexed
+2024-06-03 15:02:28,213 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,214 - INFO - There is no element of string form in attribute "App Server Id" to be indexed
+2024-06-03 15:02:28,319 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,320 - INFO - There is no element of string form in attribute "App Server Name" to be indexed
+2024-06-03 15:02:28,408 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,409 - INFO - There is no element of string form in attribute "Browser Id" to be indexed
+2024-06-03 15:02:28,482 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,484 - INFO - There is no element of string form in attribute "Browser Name" to be indexed
+2024-06-03 15:02:28,561 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,563 - INFO - There is no element of string form in attribute "Browser Version" to be indexed
+2024-06-03 15:02:28,655 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,657 - INFO - There is no element of string form in attribute "Compute Id" to be indexed
+2024-06-03 15:02:28,734 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,735 - INFO - There is no element of string form in attribute "Compute Details" to be indexed
+2024-06-03 15:02:28,806 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,807 - INFO - There is no element of string form in attribute "Data Id" to be indexed
+2024-06-03 15:02:28,898 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:28,899 - INFO - There is no element of string form in attribute "Data Class" to be indexed
+2024-06-03 15:02:29,001 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,003 - INFO - There is no element of string form in attribute "Data Sources" to be indexed
+2024-06-03 15:02:29,087 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,089 - INFO - There is no element of string form in attribute "Data Tables" to be indexed
+2024-06-03 15:02:29,205 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,207 - INFO - There is no element of string form in attribute "Data Size" to be indexed
+2024-06-03 15:02:29,397 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,399 - INFO - There is no element of string form in attribute "Data Total Rows" to be indexed
+2024-06-03 15:02:29,493 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,495 - INFO - There is no element of string form in attribute "Data Biggest Table" to be indexed
+2024-06-03 15:02:29,581 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,583 - INFO - There is no element of string form in attribute "Environment Id" to be indexed
+2024-06-03 15:02:29,666 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,668 - INFO - There is no element of string form in attribute "Environment Description" to be indexed
+2024-06-03 15:02:29,752 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,753 - INFO - There is no element of string form in attribute "Environment Details" to be indexed
+2024-06-03 15:02:29,838 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,840 - INFO - There is no element of string form in attribute "Metadata Id" to be indexed
+2024-06-03 15:02:29,938 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:29,940 - INFO - There is no element of string form in attribute "Metadata Class" to be indexed
+2024-06-03 15:02:30,019 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,021 - INFO - There is no element of string form in attribute "Metadata Total Objects" to be indexed
+2024-06-03 15:02:30,093 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,096 - INFO - There is no element of string form in attribute "Metadata Users" to be indexed
+2024-06-03 15:02:30,175 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,177 - INFO - There is no element of string form in attribute "Metadata Subscriptions" to be indexed
+2024-06-03 15:02:30,256 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,257 - INFO - There is no element of string form in attribute "Metadata Applications" to be indexed
+2024-06-03 15:02:30,337 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,339 - INFO - There is no element of string form in attribute "Metadata Languages" to be indexed
+2024-06-03 15:02:30,417 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,418 - INFO - There is no element of string form in attribute "Network Id" to be indexed
+2024-06-03 15:02:30,496 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,497 - INFO - There is no element of string form in attribute "Network Speed (mbps)" to be indexed
+2024-06-03 15:02:30,583 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,584 - INFO - There is no element of string form in attribute "Network Name" to be indexed
+2024-06-03 15:02:30,665 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,667 - INFO - There is no element of string form in attribute "Network 1gb File Download Hh:mm:ss" to be indexed
+2024-06-03 15:02:30,742 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,744 - INFO - There is no element of string form in attribute "Object Id" to be indexed
+2024-06-03 15:02:30,821 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,822 - INFO - There is no element of string form in attribute "Object Type" to be indexed
+2024-06-03 15:02:30,900 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,901 - INFO - There is no element of string form in attribute "Object Complexity" to be indexed
+2024-06-03 15:02:30,974 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:30,976 - INFO - There is no element of string form in attribute "Object Name" to be indexed
+2024-06-03 15:02:31,055 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,057 - INFO - There is no element of string form in attribute "Object Chapters" to be indexed
+2024-06-03 15:02:31,143 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,146 - INFO - There is no element of string form in attribute "Object Pages" to be indexed
+2024-06-03 15:02:31,238 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,240 - INFO - There is no element of string form in attribute "Object Visualizations" to be indexed
+2024-06-03 15:02:31,337 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,338 - INFO - There is no element of string form in attribute "Object Attributes" to be indexed
+2024-06-03 15:02:31,420 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,422 - INFO - There is no element of string form in attribute "Object Metrics" to be indexed
+2024-06-03 15:02:31,497 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,499 - INFO - There is no element of string form in attribute "Object Datasets" to be indexed
+2024-06-03 15:02:31,575 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,577 - INFO - There is no element of string form in attribute "Object Rows" to be indexed
+2024-06-03 15:02:31,646 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,647 - INFO - There is no element of string form in attribute "Object Cols" to be indexed
+2024-06-03 15:02:31,725 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,726 - INFO - There is no element of string form in attribute "Object Cells" to be indexed
+2024-06-03 15:02:31,805 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,807 - INFO - There is no element of string form in attribute "Object Keywords Per Card" to be indexed
+2024-06-03 15:02:31,882 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,883 - INFO - There is no element of string form in attribute "Object Size (gb)" to be indexed
+2024-06-03 15:02:31,964 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:31,966 - INFO - There is no element of string form in attribute "Object Example" to be indexed
+2024-06-03 15:02:32,045 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:32,045 - INFO - There is no element of string form in attribute "Object Owner" to be indexed
+2024-06-03 15:02:32,108 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:32,109 - INFO - There is no element of string form in attribute "Object Exs" to be indexed
+2024-06-03 15:02:32,183 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:32,185 - INFO - There is no element of string form in attribute "Operating System Id" to be indexed
+2024-06-03 15:02:32,271 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:32,273 - INFO - There is no element of string form in attribute "Os Name" to be indexed
+2024-06-03 15:02:32,354 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:32,356 - INFO - There is no element of string form in attribute "Os Version" to be indexed
+2024-06-03 15:02:32,429 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:32,430 - INFO - There is no element of string form in attribute "Repository Id" to be indexed
+2024-06-03 15:02:32,502 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:32,503 - INFO - There is no element of string form in attribute "Repository Name" to be indexed
+2024-06-03 15:02:32,585 - INFO - fetch offset: 0, page_size: 100000.
+2024-06-03 15:02:32,586 - INFO - There is no element of string form in attribute "Repository Version" to be indexed
+2024-06-03 15:02:32,586 - INFO - Distinct element count of Cube: UB Cube (New DWH) - Dev done.
+2024-06-03 15:02:32,586 - INFO - The sizing time for specified project's MTDI cubes was: 694.6056017875671 seconds
+2024-06-03 15:02:32,590 - INFO - Distinct element counts in OLAP cubes so far: 0
+2024-06-03 15:02:32,592 - INFO - Distinct element counts in MTDI cubes so far: 6456
+2024-06-03 15:02:32,661 - INFO - Logged out of MSTR
